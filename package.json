@@ -1,0 +1,44 @@
+{
+  "name": "scheduler-bot-horizons",
+  "version": "0.0.1",
+  "description": "Slack-integrated scheduler bot that hooks into Google Calendar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masonliyu/SchedulerBot.git"
+  },
+  "keywords": [
+    "Slack",
+    "scheduler-bot",
+    "scheduler",
+    "DialogFlow"
+  ],
+  "author": "masonliyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masonliyu/SchedulerBot/issues"
+  },
+  "homepage": "https://github.com/masonliyu/SchedulerBot#readme",
+  "dependencies": {
+    "@slack/client": "^3.14.1",
+    "express": "^4.16.2",
+    "google": "^2.1.0",
+    "googleapis": "^22.2.0",
+    "mongoose": "^4.12.4",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "mocha": "^4.0.1"
+  }
+}
