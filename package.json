@@ -28,7 +28,7 @@
     "express": "^4.16.2",
     "google": "^2.1.0",
     "googleapis": "^22.2.0",
-    "mongoose": "^4.12.4",
+    "mongoose": "^5.7.6",
     "node-fetch": "^1.7.3"
   },
   "devDependencies": {
